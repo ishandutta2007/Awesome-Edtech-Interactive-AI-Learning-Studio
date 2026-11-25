@@ -91,75 +91,75 @@ The table below catalogs premier commercial and hosted EdTech studios, sorted in
 
 Below is a comprehensive collection of active open-source repositories for self-hosting AI learning studios, running offline LMS deployments, and embedding live browser sandboxes.
 
-> 🌟 **Sorted by GitHub Stars (Descending)**. Star badges link directly to each repository's stargazers community.
+> 🌟 **Sorted by GitHub_Stars (Descending)**. Stars_Badges link directly to each repository's stargazers community.
 
 ### 🏢 Open-Source Learning Management Systems (LMS)
 
-- **[Moodle (`moodle/moodle`)](https://github.com/moodle/moodle)** 🎓 [![GitHub Stars](https://img.shields.io/github/stars/moodle/moodle?style=social&color=white)](https://github.com/moodle/moodle/stargazers)  
+- **[Moodle (`moodle/moodle`)](https://github.com/moodle/moodle)** 🎓 [![GitHub_Stars](https://img.shields.io/github/stars/moodle/moodle?style=social&color=white)](https://github.com/moodle/moodle/stargazers)  
   *The world's most ubiquitous open-source Learning Management System.* Features modular course creation, competency-based tracking, grading workflows, LTI 1.3 standards, and an extensive ecosystem of community plugins (including OpenAI and local LLM tutor integrations).
-- **[Open edX (`openedx/edx-platform`)](https://github.com/openedx/edx-platform)** 🌐 [![GitHub Stars](https://img.shields.io/github/stars/openedx/edx-platform?style=social&color=white)](https://github.com/openedx/edx-platform/stargazers)  
+- **[Open edX (`openedx/edx-platform`)](https://github.com/openedx/edx-platform)** 🌐 [![GitHub_Stars](https://img.shields.io/github/stars/openedx/edx-platform?style=social&color=white)](https://github.com/openedx/edx-platform/stargazers)  
   *Scalable, enterprise-grade MOOC platform founded by Harvard and MIT.* Powers millions of online learners worldwide with modular XBlocks, auto-graded coding problem sets, discussion forums, and rich institutional learning analytics.
-- **[Canvas LMS (`instructure/canvas-lms`)](https://github.com/instructure/canvas-lms)** 🏫 [![GitHub Stars](https://img.shields.io/github/stars/instructure/canvas-lms?style=social&color=white)](https://github.com/instructure/canvas-lms/stargazers)  
+- **[Canvas LMS (`instructure/canvas-lms`)](https://github.com/instructure/canvas-lms)** 🏫 [![GitHub_Stars](https://img.shields.io/github/stars/instructure/canvas-lms?style=social&color=white)](https://github.com/instructure/canvas-lms/stargazers)  
   *Modern open-source core behind higher-ed and K–12 institutions.* Provides an intuitive web UI, mobile apps, rubrics, speed-grader workflows, and deep external tool interoperability.
-- **[Sakai (`sakaiproject/sakai`)](https://github.com/sakaiproject/sakai)** 🏛️ [![GitHub Stars](https://img.shields.io/github/stars/sakaiproject/sakai?style=social&color=white)](https://github.com/sakaiproject/sakai/stargazers)  
+- **[Sakai (`sakaiproject/sakai`)](https://github.com/sakaiproject/sakai)** 🏛️ [![GitHub_Stars](https://img.shields.io/github/stars/sakaiproject/sakai?style=social&color=white)](https://github.com/sakaiproject/sakai/stargazers)  
   *University-designed open-source learning environment.* Built specifically for higher education teaching, academic research collaboration, and comprehensive grading rubrics.
-- **[Kolibri (`learningequality/kolibri`)](https://github.com/learningequality/kolibri)** 📡 [![GitHub Stars](https://img.shields.io/github/stars/learningequality/kolibri?style=social&color=white)](https://github.com/learningequality/kolibri/stargazers)  
+- **[Kolibri (`learningequality/kolibri`)](https://github.com/learningequality/kolibri)** 📡 [![GitHub_Stars](https://img.shields.io/github/stars/learningequality/kolibri?style=social&color=white)](https://github.com/learningequality/kolibri/stargazers)  
   *Offline-first educational studio and LMS engineered for low-connectivity environments.* Distributes curated Khan Academy, OpenStax, and custom interactive exercises over local Wi-Fi without internet access.
-- **[Chamilo LMS (`chamilo/chamilo-lms`)](https://github.com/chamilo/chamilo-lms)** 📑 [![GitHub Stars](https://img.shields.io/github/stars/chamilo/chamilo-lms?style=social&color=white)](https://github.com/chamilo/chamilo-lms/stargazers)  
+- **[Chamilo LMS (`chamilo/chamilo-lms`)](https://github.com/chamilo/chamilo-lms)** 📑 [![GitHub_Stars](https://img.shields.io/github/stars/chamilo/chamilo-lms?style=social&color=white)](https://github.com/chamilo/chamilo-lms/stargazers)  
   *Lightweight, accessible e-learning system.* Emphasizes fast course authoring, SCORM compliance, skill-based tracking, and straightforward classroom administration.
 
 ### 🧠 AI Learning Studios, Tutors & Knowledge Assistants
 
-- **[Open WebUI (`open-webui/open-webui`)](https://github.com/open-webui/open-webui)** 💬 [![GitHub Stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers)  
+- **[Open WebUI (`open-webui/open-webui`)](https://github.com/open-webui/open-webui)** 💬 [![GitHub_Stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers)  
   *Self-hosted AI workspace with multimodal support.* Frequently deployed by educators and university labs to host Socratic AI tutors, local RAG textbook query engines, and voice tutoring agents with local LLMs (Ollama/vLLM).
-- **[Open Notebook (`lfnovo/open-notebook`)](https://github.com/lfnovo/open-notebook)** 📓 [![GitHub Stars](https://img.shields.io/github/stars/lfnovo/open-notebook?style=social&color=white)](https://github.com/lfnovo/open-notebook/stargazers)  
+- **[Open Notebook (`lfnovo/open-notebook`)](https://github.com/lfnovo/open-notebook)** 📓 [![GitHub_Stars](https://img.shields.io/github/stars/lfnovo/open-notebook?style=social&color=white)](https://github.com/lfnovo/open-notebook/stargazers)  
   *Privacy-first open-source alternative to Google NotebookLM.* Enables students and teachers to upload lecture slides and textbooks, chat with synthesized notes, and produce auto-generated audio discussions.
-- **[Khoj (`khoj-ai/khoj`)](https://github.com/khoj-ai/khoj)** 🧭 [![GitHub Stars](https://img.shields.io/github/stars/khoj-ai/khoj?style=social&color=white)](https://github.com/khoj-ai/khoj/stargazers)  
+- **[Khoj (`khoj-ai/khoj`)](https://github.com/khoj-ai/khoj)** 🧭 [![GitHub_Stars](https://img.shields.io/github/stars/khoj-ai/khoj?style=social&color=white)](https://github.com/khoj-ai/khoj/stargazers)  
   *Personal open-source AI study companion.* Indexes local Obsidian, Markdown, and PDF notes to craft custom adaptive quizzes, flashcards, and factual research assistants.
-- **[SurfSense (`MODSetter/SurfSense`)](https://github.com/MODSetter/SurfSense)** 🔍 [![GitHub Stars](https://img.shields.io/github/stars/MODSetter/SurfSense?style=social&color=white)](https://github.com/MODSetter/SurfSense/stargazers)  
+- **[SurfSense (`MODSetter/SurfSense`)](https://github.com/MODSetter/SurfSense)** 🔍 [![GitHub_Stars](https://img.shields.io/github/stars/MODSetter/SurfSense?style=social&color=white)](https://github.com/MODSetter/SurfSense/stargazers)  
   *Self-hosted AI research and knowledge engine.* Unifies research papers, lecture notes, and web references into an interactive, vectorized study workspace.
-- **[Oppia (`oppia/oppia`)](https://github.com/oppia/oppia)** 💡 [![GitHub Stars](https://img.shields.io/github/stars/oppia/oppia?style=social&color=white)](https://github.com/oppia/oppia/stargazers)  
+- **[Oppia (`oppia/oppia`)](https://github.com/oppia/oppia)** 💡 [![GitHub_Stars](https://img.shields.io/github/stars/oppia/oppia?style=social&color=white)](https://github.com/oppia/oppia/stargazers)  
   *Interactive conversational learning platform.* Delivers story-driven learning explorations that simulate one-on-one tutoring by directly diagnosing and addressing specific student misconceptions.
-- **[Ekko Studio (`EKKOLearnAI/ekko-studio`)](https://github.com/EKKOLearnAI/ekko-studio)** 🤖 [![GitHub Stars](https://img.shields.io/github/stars/EKKOLearnAI/ekko-studio?style=social&color=white)](https://github.com/EKKOLearnAI/ekko-studio/stargazers)  
+- **[Ekko Studio (`EKKOLearnAI/ekko-studio`)](https://github.com/EKKOLearnAI/ekko-studio)** 🤖 [![GitHub_Stars](https://img.shields.io/github/stars/EKKOLearnAI/ekko-studio?style=social&color=white)](https://github.com/EKKOLearnAI/ekko-studio/stargazers)  
   *Modern open-source interactive AI learning studio.* Designed for building AI-assisted tutoring experiences, dynamic question generation, and adaptive study workflows.
 
 ### 🔄 Spaced-Repetition & Memory Retention Engines
 
-- **[Logseq (`logseq/logseq`)](https://github.com/logseq/logseq)** 🧠 [![GitHub Stars](https://img.shields.io/github/stars/logseq/logseq?style=social&color=white)](https://github.com/logseq/logseq/stargazers)  
+- **[Logseq (`logseq/logseq`)](https://github.com/logseq/logseq)** 🧠 [![GitHub_Stars](https://img.shields.io/github/stars/logseq/logseq?style=social&color=white)](https://github.com/logseq/logseq/stargazers)  
   *Privacy-centric, local-first knowledge graph.* Combines networked note-taking with built-in spaced-repetition flashcards and side-by-side PDF annotation for deep academic study.
-- **[Anki (`ankitects/anki`)](https://github.com/ankitects/anki)** 🗂️ [![GitHub Stars](https://img.shields.io/github/stars/ankitects/anki?style=social&color=white)](https://github.com/ankitects/anki/stargazers)  
+- **[Anki (`ankitects/anki`)](https://github.com/ankitects/anki)** 🗂️ [![GitHub_Stars](https://img.shields.io/github/stars/ankitects/anki?style=social&color=white)](https://github.com/ankitects/anki/stargazers)  
   *The gold standard in active-recall and spaced-repetition software.* Cross-platform flashcard system supporting LaTeX, audio clips, image occlusion, and modern neural retention models.
-- **[Open-FSRS (`open-spaced-repetition/fsrs4anki`)](https://github.com/open-spaced-repetition/fsrs4anki)** 📈 [![GitHub Stars](https://img.shields.io/github/stars/open-spaced-repetition/fsrs4anki?style=social&color=white)](https://github.com/open-spaced-repetition/fsrs4anki/stargazers)  
+- **[Open-FSRS (`open-spaced-repetition/fsrs4anki`)](https://github.com/open-spaced-repetition/fsrs4anki)** 📈 [![GitHub_Stars](https://img.shields.io/github/stars/open-spaced-repetition/fsrs4anki?style=social&color=white)](https://github.com/open-spaced-repetition/fsrs4anki/stargazers)  
   *Free Spaced Repetition Scheduler (FSRS).* Machine-learning-based scheduling algorithm mathematically modeling memory decay to reduce review counts by 20–30% compared to traditional SM-2.
 
 ### 📖 Interactive Courseware & Open Textbooks
 
-- **[freeCodeCamp (`freeCodeCamp/freeCodeCamp`)](https://github.com/freeCodeCamp/freeCodeCamp)** 💻 [![GitHub Stars](https://img.shields.io/github/stars/freeCodeCamp/freeCodeCamp?style=social&color=white)](https://github.com/freeCodeCamp/freeCodeCamp/stargazers)  
+- **[freeCodeCamp (`freeCodeCamp/freeCodeCamp`)](https://github.com/freeCodeCamp/freeCodeCamp)** 💻 [![GitHub_Stars](https://img.shields.io/github/stars/freeCodeCamp/freeCodeCamp?style=social&color=white)](https://github.com/freeCodeCamp/freeCodeCamp/stargazers)  
   *World-renowned open-source interactive coding and math learning platform.* Features full in-browser coding environments, automated unit test validation, and structured project certifications.
-- **[Quarto (`quarto-dev/quarto-cli`)](https://github.com/quarto-dev/quarto-cli)** 📊 [![GitHub Stars](https://img.shields.io/github/stars/quarto-dev/quarto-cli?style=social&color=white)](https://github.com/quarto-dev/quarto-cli/stargazers)  
+- **[Quarto (`quarto-dev/quarto-cli`)](https://github.com/quarto-dev/quarto-cli)** 📊 [![GitHub_Stars](https://img.shields.io/github/stars/quarto-dev/quarto-cli?style=social&color=white)](https://github.com/quarto-dev/quarto-cli/stargazers)  
   *Next-generation scientific publishing system.* Creates interactive technical websites, slides, and WebAssembly-powered executable lessons from plain Markdown.
-- **[JupyterBook (`jupyter-book/jupyter-book`)](https://github.com/jupyter-book/jupyter-book)** 📚 [![GitHub Stars](https://img.shields.io/github/stars/jupyter-book/jupyter-book?style=social&color=white)](https://github.com/jupyter-book/jupyter-book/stargazers)  
+- **[JupyterBook (`jupyter-book/jupyter-book`)](https://github.com/jupyter-book/jupyter-book)** 📚 [![GitHub_Stars](https://img.shields.io/github/stars/jupyter-book/jupyter-book?style=social&color=white)](https://github.com/jupyter-book/jupyter-book/stargazers)  
   *Publication tool for computational courseware.* Compiles Jupyter Notebooks and Markdown into interactive, publication-quality online textbooks with embedded live code cells.
-- **[LibreLingo (`LibreLingo/LibreLingo`)](https://github.com/LibreLingo/LibreLingo)** 🐢 [![GitHub Stars](https://img.shields.io/github/stars/LibreLingo/LibreLingo?style=social&color=white)](https://github.com/LibreLingo/LibreLingo/stargazers)  
+- **[LibreLingo (`LibreLingo/LibreLingo`)](https://github.com/LibreLingo/LibreLingo)** 🐢 [![GitHub_Stars](https://img.shields.io/github/stars/LibreLingo/LibreLingo?style=social&color=white)](https://github.com/LibreLingo/LibreLingo/stargazers)  
   *Community-owned, offline-capable language learning software.* An open-source, modular Duolingo alternative focused on community freedom and open linguistic data.
-- **[H5P (`h5p/h5p-php-library`)](https://github.com/h5p/h5p-php-library)** 🧩 [![GitHub Stars](https://img.shields.io/github/stars/h5p/h5p-php-library?style=social&color=white)](https://github.com/h5p/h5p-php-library/stargazers)  
+- **[H5P (`h5p/h5p-php-library`)](https://github.com/h5p/h5p-php-library)** 🧩 [![GitHub_Stars](https://img.shields.io/github/stars/h5p/h5p-php-library?style=social&color=white)](https://github.com/h5p/h5p-php-library/stargazers)  
   *Open-source HTML5 authoring library.* Enables teachers to create rich interactive videos, branching scenarios, crosswords, and drag-and-drop exercises directly within any LMS.
-- **[LibreTexts / Adapt (`LibreTexts/adapt`)](https://github.com/LibreTexts/adapt)** 📖 [![GitHub Stars](https://img.shields.io/github/stars/LibreTexts/adapt?style=social&color=white)](https://github.com/LibreTexts/adapt/stargazers)  
+- **[LibreTexts / Adapt (`LibreTexts/adapt`)](https://github.com/LibreTexts/adapt)** 📖 [![GitHub_Stars](https://img.shields.io/github/stars/LibreTexts/adapt?style=social&color=white)](https://github.com/LibreTexts/adapt/stargazers)  
   *Open-source adaptive homework and assessment system.* Integrates auto-graded STEM questions, OER textbooks, and formative evaluation across multi-campus networks.
 
 ### 📐 STEM, Math Animation & Problem-Driven Assessment
 
-- **[Excalidraw (`excalidraw/excalidraw`)](https://github.com/excalidraw/excalidraw)** 🎨 [![GitHub Stars](https://img.shields.io/github/stars/excalidraw/excalidraw?style=social&color=white)](https://github.com/excalidraw/excalidraw/stargazers)  
+- **[Excalidraw (`excalidraw/excalidraw`)](https://github.com/excalidraw/excalidraw)** 🎨 [![GitHub_Stars](https://img.shields.io/github/stars/excalidraw/excalidraw?style=social&color=white)](https://github.com/excalidraw/excalidraw/stargazers)  
   *Virtual hand-drawn collaborative whiteboard.* Widely embedded in live digital tutoring environments, collaborative problem solving, and visual diagramming.
-- **[Manim (`ManimCommunity/manim`)](https://github.com/ManimCommunity/manim)** 🎬 [![GitHub Stars](https://img.shields.io/github/stars/ManimCommunity/manim?style=social&color=white)](https://github.com/ManimCommunity/manim/stargazers)  
+- **[Manim (`ManimCommunity/manim`)](https://github.com/ManimCommunity/manim)** 🎬 [![GitHub_Stars](https://img.shields.io/github/stars/ManimCommunity/manim?style=social&color=white)](https://github.com/ManimCommunity/manim/stargazers)  
   *Python animation engine for explanatory math and physics.* Programmatically generates smooth vector animations and visual proofs popularized by 3Blue1Brown.
-- **[KaTeX (`KaTeX/KaTeX`)](https://github.com/KaTeX/KaTeX)** 📐 [![GitHub Stars](https://img.shields.io/github/stars/KaTeX/KaTeX?style=social&color=white)](https://github.com/KaTeX/KaTeX/stargazers)  
+- **[KaTeX (`KaTeX/KaTeX`)](https://github.com/KaTeX/KaTeX)** 📐 [![GitHub_Stars](https://img.shields.io/github/stars/KaTeX/KaTeX?style=social&color=white)](https://github.com/KaTeX/KaTeX/stargazers)  
   *Fast math typesetting library for the web.* Renders complex mathematical formulas instantaneously without layout reflows or server-side pre-rendering.
-- **[GeoGebra (`geogebra/geogebra`)](https://github.com/geogebra/geogebra)** 📏 [![GitHub Stars](https://img.shields.io/github/stars/geogebra/geogebra?style=social&color=white)](https://github.com/geogebra/geogebra/stargazers)  
+- **[GeoGebra (`geogebra/geogebra`)](https://github.com/geogebra/geogebra)** 📏 [![GitHub_Stars](https://img.shields.io/github/stars/geogebra/geogebra?style=social&color=white)](https://github.com/geogebra/geogebra/stargazers)  
   *Interactive geometry, algebra, statistics, and calculus engine.* Powers interactive mathematical investigations and dynamic geometric modeling.
-- **[PrairieLearn (`PrairieLearn/PrairieLearn`)](https://github.com/PrairieLearn/PrairieLearn)** 📝 [![GitHub Stars](https://img.shields.io/github/stars/PrairieLearn/PrairieLearn?style=social&color=white)](https://github.com/PrairieLearn/PrairieLearn/stargazers)  
+- **[PrairieLearn (`PrairieLearn/PrairieLearn`)](https://github.com/PrairieLearn/PrairieLearn)** 📝 [![GitHub_Stars](https://img.shields.io/github/stars/PrairieLearn/PrairieLearn?style=social&color=white)](https://github.com/PrairieLearn/PrairieLearn/stargazers)  
   *Problem-driven online homework and exam platform originated at UIUC.* Generates randomized, parameter-driven engineering, math, and computer science problem sets with instant auto-grading.
-- **[SCORM API Wrapper (`pipwerks/scorm-api-wrapper`)](https://github.com/pipwerks/scorm-api-wrapper)** 📦 [![GitHub Stars](https://img.shields.io/github/stars/pipwerks/scorm-api-wrapper?style=social&color=white)](https://github.com/pipwerks/scorm-api-wrapper/stargazers)  
+- **[SCORM API Wrapper (`pipwerks/scorm-api-wrapper`)](https://github.com/pipwerks/scorm-api-wrapper)** 📦 [![GitHub_Stars](https://img.shields.io/github/stars/pipwerks/scorm-api-wrapper?style=social&color=white)](https://github.com/pipwerks/scorm-api-wrapper/stargazers)  
   *Standardized e-learning wrapper.* Provides clean JavaScript abstractions to connect interactive modules and courseware with SCORM 1.2 and SCORM 2004 LMS engines.
 
 ---
@@ -168,17 +168,17 @@ Below is a comprehensive collection of active open-source repositories for self-
 
 Essential open-source libraries for running client-side compilers, math rendering, and digital classroom features:
 
-| 🏷️ Tool / Framework | ⭐ Stars Badge | 💡 Category & Capabilities |
+| 🏷️ Tool / Framework | ⭐ Stars_Badge | 💡 Category & Capabilities |
 | :--- | :---: | :--- |
-| **[Whisper (`openai/whisper`)](https://github.com/openai/whisper)** | [![GitHub Stars](https://img.shields.io/github/stars/openai/whisper?style=social&color=white)](https://github.com/openai/whisper/stargazers) | **Speech Recognition**: General-purpose speech recognition model for pronunciation assessment and automated lecture transcription. |
-| **[WebVM (`leaningtech/webvm`)](https://github.com/leaningtech/webvm)** | [![GitHub Stars](https://img.shields.io/github/stars/leaningtech/webvm?style=social&color=white)](https://github.com/leaningtech/webvm/stargazers) | **Client-Side Virtualization**: In-browser Linux virtual machine powered by WebAssembly and CheerpX for interactive systems programming labs. |
-| **[Pyodide (`pyodide/pyodide`)](https://github.com/pyodide/pyodide)** | [![GitHub Stars](https://img.shields.io/github/stars/pyodide/pyodide?style=social&color=white)](https://github.com/pyodide/pyodide/stargazers) | **Browser Python Sandbox**: WebAssembly port of CPython enabling zero-server data science and interactive Python coding directly in students' browsers. |
-| **[SadTalker (`OpenTalker/SadTalker`)](https://github.com/OpenTalker/SadTalker)** | [![GitHub Stars](https://img.shields.io/github/stars/OpenTalker/SadTalker?style=social&color=white)](https://github.com/OpenTalker/SadTalker/stargazers) | **AI Video Synthesis**: Generates realistic talking-head educational videos from an audio clip and single portrait image. |
-| **[Piper (`rhasspy/piper`)](https://github.com/rhasspy/piper)** | [![GitHub Stars](https://img.shields.io/github/stars/rhasspy/piper?style=social&color=white)](https://github.com/rhasspy/piper/stargazers) | **Fast Local TTS**: High-speed, ultra-low latency local neural text-to-speech for real-time conversational voice tutors. |
-| **[Kokoro (`hexgrad/kokoro`)](https://github.com/hexgrad/kokoro)** | [![GitHub Stars](https://img.shields.io/github/stars/hexgrad/kokoro?style=social&color=white)](https://github.com/hexgrad/kokoro/stargazers) | **Lightweight TTS**: Compact 82M-parameter text-to-speech model for clear, natural lecture and audiobook voice generation. |
-| **[BigBlueButton (`bigbluebutton/bigbluebutton`)](https://github.com/bigbluebutton/bigbluebutton)** | [![GitHub Stars](https://img.shields.io/github/stars/bigbluebutton/bigbluebutton?style=social&color=white)](https://github.com/bigbluebutton/bigbluebutton/stargazers) | **Virtual Classroom**: Web conferencing platform designed specifically for online education with breakout rooms and multi-user whiteboards. |
-| **[Judge0 (`judge0/judge0`)](https://github.com/judge0/judge0)** | [![GitHub Stars](https://img.shields.io/github/stars/judge0/judge0)](https://github.com/judge0/judge0/stargazers) | **Auto-Grading Sandbox**: Scalable multi-language online code execution and grading engine supporting 60+ programming languages. |
-| **[Opencast (`opencast/opencast`)](https://github.com/opencast/opencast)** | [![GitHub Stars](https://img.shields.io/github/stars/opencast/opencast?style=social&color=white)](https://github.com/opencast/opencast/stargazers) | **Lecture Capture**: Enterprise lecture recording scheduling, automated video processing, and secure educational video distribution. |
+| **[Whisper (`openai/whisper`)](https://github.com/openai/whisper)** | [![GitHub_Stars](https://img.shields.io/github/stars/openai/whisper?style=social&color=white)](https://github.com/openai/whisper/stargazers) | **Speech Recognition**: General-purpose speech recognition model for pronunciation assessment and automated lecture transcription. |
+| **[WebVM (`leaningtech/webvm`)](https://github.com/leaningtech/webvm)** | [![GitHub_Stars](https://img.shields.io/github/stars/leaningtech/webvm?style=social&color=white)](https://github.com/leaningtech/webvm/stargazers) | **Client-Side Virtualization**: In-browser Linux virtual machine powered by WebAssembly and CheerpX for interactive systems programming labs. |
+| **[Pyodide (`pyodide/pyodide`)](https://github.com/pyodide/pyodide)** | [![GitHub_Stars](https://img.shields.io/github/stars/pyodide/pyodide?style=social&color=white)](https://github.com/pyodide/pyodide/stargazers) | **Browser Python Sandbox**: WebAssembly port of CPython enabling zero-server data science and interactive Python coding directly in students' browsers. |
+| **[SadTalker (`OpenTalker/SadTalker`)](https://github.com/OpenTalker/SadTalker)** | [![GitHub_Stars](https://img.shields.io/github/stars/OpenTalker/SadTalker?style=social&color=white)](https://github.com/OpenTalker/SadTalker/stargazers) | **AI Video Synthesis**: Generates realistic talking-head educational videos from an audio clip and single portrait image. |
+| **[Piper (`rhasspy/piper`)](https://github.com/rhasspy/piper)** | [![GitHub_Stars](https://img.shields.io/github/stars/rhasspy/piper?style=social&color=white)](https://github.com/rhasspy/piper/stargazers) | **Fast Local TTS**: High-speed, ultra-low latency local neural text-to-speech for real-time conversational voice tutors. |
+| **[Kokoro (`hexgrad/kokoro`)](https://github.com/hexgrad/kokoro)** | [![GitHub_Stars](https://img.shields.io/github/stars/hexgrad/kokoro?style=social&color=white)](https://github.com/hexgrad/kokoro/stargazers) | **Lightweight TTS**: Compact 82M-parameter text-to-speech model for clear, natural lecture and audiobook voice generation. |
+| **[BigBlueButton (`bigbluebutton/bigbluebutton`)](https://github.com/bigbluebutton/bigbluebutton)** | [![GitHub_Stars](https://img.shields.io/github/stars/bigbluebutton/bigbluebutton?style=social&color=white)](https://github.com/bigbluebutton/bigbluebutton/stargazers) | **Virtual Classroom**: Web conferencing platform designed specifically for online education with breakout rooms and multi-user whiteboards. |
+| **[Judge0 (`judge0/judge0`)](https://github.com/judge0/judge0)** | [![GitHub_Stars](https://img.shields.io/github/stars/judge0/judge0)](https://github.com/judge0/judge0/stargazers) | **Auto-Grading Sandbox**: Scalable multi-language online code execution and grading engine supporting 60+ programming languages. |
+| **[Opencast (`opencast/opencast`)](https://github.com/opencast/opencast)** | [![GitHub_Stars](https://img.shields.io/github/stars/opencast/opencast?style=social&color=white)](https://github.com/opencast/opencast/stargazers) | **Lecture Capture**: Enterprise lecture recording scheduling, automated video processing, and secure educational video distribution. |
 
 ---
 
