@@ -9,11 +9,14 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="#-table-of-contents"><img src="https://img.shields.io/badge/Awesome-EdTech-6366f1?style=for-the-badge&logo=awesomelists&logoColor=white" alt="Awesome EdTech" /></a>
   <a href="https://github.com/topics/edtech"><img src="https://img.shields.io/badge/Category-EdTech%20%26%20AI%20Studio-38bdf8?style=for-the-badge&logo=probot&logoColor=white" alt="Topic EdTech" /></a>
   <a href="https://github.com/topics/adaptive-learning"><img src="https://img.shields.io/badge/Focus-Adaptive%20Learning-ec4899?style=for-the-badge&logo=openai&logoColor=white" alt="Adaptive Learning" /></a>
   <a href="#-license--disclaimer"><img src="https://img.shields.io/badge/License-CC0--1.0-22c55e?style=for-the-badge" alt="License CC0" /></a>
   <a href="#-how-to-contribute"><img src="https://img.shields.io/badge/PRs-Welcome-f59e0b?style=for-the-badge" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 <p align="center">
