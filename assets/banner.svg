@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0d1527"/>
+      <stop offset="100%" stop-color="#060913"/>
+    </linearGradient>
+
+    <!-- Card Background -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="35%" stop-color="#818cf8"/>
+      <stop offset="70%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+
+    <!-- Glowing Node Gradients -->
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="pulseSpark" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#67e8f9" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Filter for soft glow -->
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="badgeShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <style>
+    /* Keyframe Animations */
+    @keyframes orbFloatA {
+      0%, 100% { transform: translate(0px, 0px) scale(1); }
+      50% { transform: translate(40px, -25px) scale(1.1); }
+    }
+    @keyframes orbFloatB {
+      0%, 100% { transform: translate(0px, 0px) scale(1); }
+      50% { transform: translate(-35px, 30px) scale(1.15); }
+    }
+    @keyframes flowDash {
+      0% { stroke-dashoffset: 60; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes pulseNode {
+      0%, 100% { transform: scale(1); opacity: 0.6; }
+      50% { transform: scale(1.3); opacity: 1; }
+    }
+    @keyframes floatCard1 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes floatCard2 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+    @keyframes floatCard3 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+    }
+    @keyframes pillPulse {
+      0%, 100% { opacity: 0.85; }
+      50% { opacity: 1; }
+    }
+    @keyframes waveMove {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-600px); }
+    }
+
+    .orb-a { animation: orbFloatA 12s ease-in-out infinite; transform-origin: center; }
+    .orb-b { animation: orbFloatB 14s ease-in-out infinite; transform-origin: center; }
+    .flow-line { stroke-dasharray: 6 8; animation: flowDash 3s linear infinite; }
+    .pulse-dot { animation: pulseNode 3s ease-in-out infinite; transform-origin: center; }
+    .card-1 { animation: floatCard1 5.5s ease-in-out infinite; }
+    .card-2 { animation: floatCard2 6.5s ease-in-out infinite; }
+    .card-3 { animation: floatCard3 6s ease-in-out infinite; }
+    .pill-item { animation: pillPulse 4s ease-in-out infinite; }
+
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    .body-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+    }
+    .code-text {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+  </style>
+
+  <!-- Deep Background -->
+  <rect width="1200" height="420" fill="url(#bgGradient)"/>
+
+  <!-- Subtle Matrix / Grid Pattern -->
+  <g opacity="0.12" stroke="#38bdf8" stroke-width="0.75">
+    <line x1="0" y1="70" x2="1200" y2="70" />
+    <line x1="0" y1="140" x2="1200" y2="140" />
+    <line x1="0" y1="210" x2="1200" y2="210" />
+    <line x1="0" y1="280" x2="1200" y2="280" />
+    <line x1="0" y1="350" x2="1200" y2="350" />
+
+    <line x1="120" y1="0" x2="120" y2="420" />
+    <line x1="240" y1="0" x2="240" y2="420" />
+    <line x1="360" y1="0" x2="360" y2="420" />
+    <line x1="480" y1="0" x2="480" y2="420" />
+    <line x1="600" y1="0" x2="600" y2="420" />
+    <line x1="720" y1="0" x2="720" y2="420" />
+    <line x1="840" y1="0" x2="840" y2="420" />
+    <line x1="960" y1="0" x2="960" y2="420" />
+    <line x1="1080" y1="0" x2="1080" y2="420" />
+  </g>
+
+  <!-- Animated Glowing Ambience (Behind everything) -->
+  <circle cx="200" cy="120" r="180" fill="url(#glowCyan)" class="orb-a" />
+  <circle cx="1020" cy="280" r="210" fill="url(#glowPurple)" class="orb-b" />
+
+  <!-- DYNAMIC BACKGROUND GRAPH & FLOW CONNECTIONS (Subtle, strictly in background) -->
+  <g opacity="0.35">
+    <!-- Connecting Synapse Lines with Flow Animation -->
+    <path d="M 120 320 C 260 220, 340 380, 480 300 S 740 220, 920 310 S 1060 240, 1160 300"
+          fill="none" stroke="#38bdf8" stroke-width="2" class="flow-line"/>
+    <path d="M 60 160 C 220 80, 400 240, 600 120 S 900 60, 1120 160"
+          fill="none" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.5"/>
+    
+    <!-- Dynamic Synapse Nodes -->
+    <circle cx="260" cy="220" r="5" fill="#38bdf8" class="pulse-dot" style="animation-delay: 0.3s;"/>
+    <circle cx="480" cy="300" r="6" fill="#818cf8" class="pulse-dot" style="animation-delay: 0.9s;"/>
+    <circle cx="740" cy="220" r="5" fill="#c084fc" class="pulse-dot" style="animation-delay: 1.5s;"/>
+    <circle cx="920" cy="310" r="6" fill="#f472b6" class="pulse-dot" style="animation-delay: 2.1s;"/>
+  </g>
+
+  <!-- FLOATING FEATURE MINI-CARDS (Strategically positioned at bottom corners so title/subtitle stay completely clear in center) -->
+  <!-- Left Bottom Floating Card: Adaptive Engine -->
+  <g class="card-1" transform="translate(60, 275)" filter="url(#badgeShadow)">
+    <rect width="210" height="84" rx="12" fill="url(#cardGrad)" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1.2"/>
+    <circle cx="32" cy="42" r="16" fill="#38bdf8" fill-opacity="0.15"/>
+    <text x="32" y="47" font-size="16" text-anchor="middle">🧠</text>
+    <text x="58" y="37" fill="#f8fafc" class="body-text" font-size="12" font-weight="700">Adaptive AI Tutoring</text>
+    <text x="58" y="55" fill="#94a3b8" class="body-text" font-size="10.5">Socratic Hints &amp; Mastery</text>
+  </g>
+
+  <!-- Right Bottom Floating Card: Interactive Sandboxes -->
+  <g class="card-2" transform="translate(930, 275)" filter="url(#badgeShadow)">
+    <rect width="210" height="84" rx="12" fill="url(#cardGrad)" stroke="#c084fc" stroke-opacity="0.3" stroke-width="1.2"/>
+    <circle cx="32" cy="42" r="16" fill="#c084fc" fill-opacity="0.15"/>
+    <text x="32" y="47" font-size="16" text-anchor="middle">⚡</text>
+    <text x="58" y="37" fill="#f8fafc" class="body-text" font-size="12" font-weight="700">Interactive Code &amp; Math</text>
+    <text x="58" y="55" fill="#94a3b8" class="body-text" font-size="10.5">Sandboxes &amp; Live Grading</text>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Header Tag, Title, Subtitle, & Tech Badges (Crisp, High Contrast, Centered & Unobstructed) -->
+  <g transform="translate(600, 0)" text-anchor="middle">
+    <!-- Top Pill Badge -->
+    <g transform="translate(0, 52)" class="pill-item">
+      <rect x="-170" y="0" width="340" height="30" rx="15" fill="#1e293b" fill-opacity="0.85" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="1"/>
+      <circle cx="-146" cy="15" r="4.5" fill="#38bdf8">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="5" y="19" fill="#e2e8f0" class="code-text" font-size="11" font-weight="600" letter-spacing="0.5">CURATED AWESOME EDTECH DIRECTORY</text>
+    </g>
+
+    <!-- Main Title (Guaranteed Foreground & Unobscured) -->
+    <text x="0" y="132" class="title-text" font-size="44" fill="url(#titleGrad)">Awesome EdTech &amp; AI Studio</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="174" class="body-text" font-size="18" fill="#cbd5e1" font-weight="600">
+      Next-Gen Interactive Learning, Adaptive Engines &amp; Open-Source LMS
+    </text>
+
+    <!-- Description Line -->
+    <text x="0" y="206" class="body-text" font-size="13.5" fill="#94a3b8">
+      Top SaaS Platforms • Self-Hosted Open-Source LMS • FSRS Spaced-Repetition • Code &amp; Math Sandboxes
+    </text>
+
+    <!-- Interactive / Status Pills in Center-Bottom Foreground -->
+    <g transform="translate(0, 240)">
+      <!-- Pill 1: SaaS & Open Source -->
+      <g transform="translate(-250, 0)">
+        <rect x="0" y="0" width="155" height="32" rx="16" fill="#1e293b" fill-opacity="0.8" stroke="#38bdf8" stroke-width="1"/>
+        <text x="77" y="20" fill="#38bdf8" class="body-text" font-size="12" font-weight="600">🚀 SaaS &amp; Open Source</text>
+      </g>
+      <!-- Pill 2: Socratic AI & Tutors -->
+      <g transform="translate(-80, 0)">
+        <rect x="0" y="0" width="160" height="32" rx="16" fill="#1e293b" fill-opacity="0.8" stroke="#818cf8" stroke-width="1"/>
+        <text x="80" y="20" fill="#a5b4fc" class="body-text" font-size="12" font-weight="600">🤖 AI Tutors &amp; Mastery</text>
+      </g>
+      <!-- Pill 3: FSRS & Memory Engines -->
+      <g transform="translate(95, 0)">
+        <rect x="0" y="0" width="155" height="32" rx="16" fill="#1e293b" fill-opacity="0.8" stroke="#f472b6" stroke-width="1"/>
+        <text x="77" y="20" fill="#f472b6" class="body-text" font-size="12" font-weight="600">📚 Spaced Repetition</text>
+      </g>
+    </g>
+
+    <!-- Bottom Metadata stats badge -->
+    <g transform="translate(0, 385)">
+      <text x="0" y="0" fill="#64748b" class="code-text" font-size="11">
+        ⭐ Verified Educational Technologies • Zero Lock-in Alternatives • Updated Monthly
+      </text>
+    </g>
+  </g>
+
+  <!-- Subtle Bottom Border Accent -->
+  <rect x="0" y="416" width="1200" height="4" fill="url(#titleGrad)" />
+</svg>
